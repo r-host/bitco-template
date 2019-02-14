@@ -1,0 +1,76 @@
+$font-primary : 'Roboto', sans-serif;
+$font-secondary : 'arvo', serif;
+$font-tertiary : '', sans-serif;
+$font-heading : $font-secondary;
+$font-icon: FontAwesome;
+$font-sas: 'sas-webfont';
+
+
+$black: #222222;
+$white: #ffffff;
+
+// Global
+$color-body: #999999;
+$color-primary: #FF9F1C;
+$color-secondary: #011627;
+$color-tertiary: #000000;
+$color-quaternary: #ffffff;
+
+// Fonts
+
+$font-heading-color: $color_secondary;
+
+$font-topbar-nav-color: $white;
+$font-topbar-nav-hover-color: $color_secondary;
+
+$font-navbar-color: $color-body;
+$font-navbar-hover-color: $color_primary;
+$font-navbar-active-color: $color_primary;
+$font-navbar-stiky-color: $color_secondary;
+
+/* -------------------- 
+TOPBAR SETTING
+-----------------------*/
+$topbar-bg: $color_secondary;
+$topbar-color: #999;
+$topbar-nav-color: $white;
+$topbar-nav-hover-color: $color-secondary;
+$topbar-font: $font-secondary;
+
+/* -------------------- 
+NAVBAR SETTING
+-----------------------*/
+$navbar-bg: #222222;
+$navbar-font: $font-secondary;
+$navbar-color: $black;
+$navbar-hover-color: $color-primary;
+$navbar-active-color: $color-primary;
+$navbar-stiky-color: $black;
+
+/* -------------------- 
+FOOTER SETTING
+-----------------------*/
+$footer-bg: $color-secondary;
+$footer-font-color: $color-body;
+
+/* -------------------- 
+BUTTON SETTING
+-----------------------*/
+$btn-primary-hover: lighten($color-secondary, 20%);
+
+
+// Background
+$bg__topbar: $color-primary;
+
+.bolder{
+	font-weight: 600;
+}
+
+.cfix{
+	content: '';
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+@import "mixin.scss";
